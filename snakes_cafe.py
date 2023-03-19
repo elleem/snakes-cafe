@@ -1,7 +1,7 @@
 
 my_dict = {}
 
-menu = {
+dict = {
     "Wings": 0,
     "Cookies": 0,
     "Spring Rolls": 0,
@@ -17,10 +17,46 @@ menu = {
     "Unicorn Tears": 0
 }
 def welcome():
-    pass
+    print('''**************************************
+    **    Welcome to the Snakes Cafe!   **
+    **    Please see our menu below.    **
+    **
+    ** To quit at any time, type "quit" **
+    **************************************''')
+
 
 def order_invitation():
-    pass
+    print('''
+    ***********************************
+    ** What would you like to order? **
+    ***********************************''')
 
 def menu():
-    pass
+    print('''Appetizers
+----------
+Wings
+Cookies
+Spring Rolls
+
+Entrees
+-------
+Salmon
+Steak
+Meat Tornado
+A Literal Garden
+
+Desserts
+--------
+Ice Cream
+Cake
+Pie
+
+Drinks
+------
+Coffee
+Tea
+Unicorn Tears''')
+
+welcome()
+menu()
+order_invitation()
