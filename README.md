@@ -14,7 +14,10 @@ Please type quit to exit the application.
 ### To initialize
 
  Type into your terminal: 
+
  ~python3.11 -m venv .venv
+
  ~source .venv/bin/activate
+
  ~python snakes_cafe.py
  
